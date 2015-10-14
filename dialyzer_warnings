@@ -1,0 +1,6 @@
+  Checking whether the PLT /Users/cmeiklejohn/sext/.combo_dialyzer_plt is up-to-date... yes
+  Checking whether the PLT /Users/cmeiklejohn/sext/.local_dialyzer_plt is up-to-date... yes
+  Proceeding with analysis...
+sext.erl:640: Type specification sext:decode_next(binary()) -> {any(),binary()} is a supertype of the success typing: sext:decode_next(<<_:8,_:_*8>>) -> {_,binary()}
+ done in 0m2.69s
+done (warnings were emitted)
