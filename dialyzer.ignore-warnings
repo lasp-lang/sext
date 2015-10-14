@@ -1,0 +1,1 @@
+sext.erl:640: Type specification sext:decode_next(binary()) -> {any(),binary()} is a supertype of the success typing: sext:decode_next(<<_:8,_:_*8>>) -> {_,binary()}
