@@ -20,6 +20,7 @@
 %% @end
 -module(sext).
 
+-export([pp/1]).
 -export([encode/1, encode/2, decode/1, decode_next/1]).
 -export([encode_hex/1, decode_hex/1]).
 -export([encode_sb32/1, decode_sb32/1]).
